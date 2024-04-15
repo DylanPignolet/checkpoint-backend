@@ -2,7 +2,7 @@ import "reflect-metadata"
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 import { dataSource } from './config/db';
-import adController from "./controllers/ad.controller";
+import adController from "./controllers/country.controller";
 import categoryController from "./controllers/category.controller";
 
 const app = express();
